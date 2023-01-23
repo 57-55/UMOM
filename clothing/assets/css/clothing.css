@@ -1,0 +1,60 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.imgProduct {
+  margin: auto;
+  width: 75%;
+  display: flex;
+}
+
+.titleProduct {
+  margin: 15px 10px 10px 10px;
+  color: rgb(160, 160, 96);
+  text-align: center;
+}
+
+.descriptionProduct {
+  margin: 10px;
+  color: grey;
+  text-align: left;
+}
+
+.priceProduct {
+  margin: 10px;
+  color: grey;
+  font-weight: 700;
+  text-align: right;
+}
+
+.buyProduct {
+  margin: 10px auto;
+  padding: 5px;
+  width: 20%;
+  display: flex;
+}
+
+.buyProductImg {
+  width: 100%;
+}
